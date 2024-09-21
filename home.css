@@ -143,18 +143,35 @@ body{
     text-align: center;
     color: gray;
 }
-#sign > div{
-    background-color: rgb(206, 200, 200);
+#sign {
+    background-color: rgb(245, 244, 244);
     padding: 20px;
     display: flex;
     gap: 30px;
+    color: rgb(112, 106, 106);
+    text-align: center;
 }
 #sign button{
+    background-color: aqua;
     border-radius: 10px;
     border: none;
-    background-color: rgb(102, 102, 201);
+    box-shadow: 4px 4px 4px rgba(20, 18, 18, 0.925);
+    padding: 20px;
+    cursor:pointer;
+    color: white;
+    transition: 2s;
 }
 #sign button:hover{
     background-color: rgb(95, 206, 95);
 }
-
+#footer{
+    background-color:rgb(170, 166, 166) ;
+    display: flex;
+    gap: 125px;
+    padding: 50px;
+}
+#foot2 {
+    background-color: rgb(231, 85, 85);
+    display: flex;
+    gap: 600px;
+}
