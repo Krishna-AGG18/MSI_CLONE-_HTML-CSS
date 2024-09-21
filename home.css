@@ -80,7 +80,7 @@ body{
     border: 2px solid black;
     flfe
 }
-#inerr{
+#inerr {
     display: flex;
     flex-direction: column;
     height: 430px;
